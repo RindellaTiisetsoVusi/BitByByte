@@ -1,3 +1,5 @@
+#Committed version
+
 import pygame, sys 
 from pygame.locals import *
 from pygame import mixer
@@ -26,11 +28,11 @@ pygame.display.set_caption('Ssssnake')
 clock = pygame.time.Clock() 
 
 #Loading Images
-icon = pygame.image.load(r'C:\Users\user\Desktop\Python1\GameDev\Block3_4\snake.png')
-fruit = pygame.image.load(r'C:\Users\user\Desktop\Python1\GameDev\Block3_4\plum.png')
-background1 = pygame.image.load(r'C:\Users\user\Desktop\Python1\GameDev\Block3_4\background1.JPG')
-background2 = pygame.image.load(r'C:\Users\user\Desktop\Python1\GameDev\Block3_4\background3.JPG')
-background3 = pygame.image.load(r'C:\Users\user\Desktop\Python1\GameDev\Block3_4\background4.JPG')
+icon = pygame.image.load(r'C:\Users\Tiisetso Monatisa\OneDrive\Documents\PROJECTS\GITHUB\snake.png')
+fruit = pygame.image.load(r'C:\Users\Tiisetso Monatisa\OneDrive\Documents\PROJECTS\GITHUB\plum.png')
+background1 = pygame.image.load(r'C:\Users\Tiisetso Monatisa\OneDrive\Documents\PROJECTS\GITHUB\background1.JPG')
+background2 = pygame.image.load(r'C:\Users\Tiisetso Monatisa\OneDrive\Documents\PROJECTS\GITHUB\background3.JPG')
+background3 = pygame.image.load(r'C:\Users\Tiisetso Monatisa\OneDrive\Documents\PROJECTS\GITHUB\background4.JPG')
 
 #Scaling Images
 snakePic = pygame.transform.scale(icon,(350,250)) 
